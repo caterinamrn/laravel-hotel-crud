@@ -13,5 +13,6 @@
    </li>
   @endforeach
 </ul>
+<h2><a href="{{route('stanza-create')}}">Nuova Stanza</a></h2>
 
   @endsection

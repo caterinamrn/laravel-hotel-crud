@@ -22,4 +22,16 @@ class StanzaController extends Controller
     return view("stanza", compact("stanza"));
 
   }
+
+  public function create(){
+
+    return view('create-stanza');
+
+  }
+
+  public function store(Request $request){
+
+    dd($request);
+
+  }
 }
